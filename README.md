@@ -1,24 +1,15 @@
-# PDFAid - Convertisseur d'Images en PDF
+# PDFAid - Convertisseur Image/PDF
 
-![Preview](assets/images/preview.jpg)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://votreusername.github.io/pdfaid-website/)
+
+## Déploiement sur GitHub Pages
+1. Clonez ce dépôt
+2. Poussez les fichiers sur votre dépôt GitHub
+3. Activez GitHub Pages dans Settings > Pages
+   - Branch: `main`
+   - Dossier: `/ (root)`
 
 ## Fonctionnalités
-- Conversion d'images en PDF
-- Glisser-déposer des fichiers
-- Multiples formats supportés (JPG, PNG, GIF, BMP)
-- Interface intuitive
-
-## Installation
-1. Clonez ce dépôt
-2. Ouvrez `index.html` dans votre navigateur
-
-## Déploiement
-Ce site est prêt pour GitHub Pages. Pour déployer :
-1. Créez un nouveau dépôt GitHub
-2. Poussez ces fichiers
-3. Activez GitHub Pages dans les paramètres
-
-## Technologies
-- HTML5
-- CSS3
-- JavaScript Vanilla
+- Glisser-déposer d'images
+- Conversion multiple
+- Interface responsive
