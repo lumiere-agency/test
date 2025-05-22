@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFAid - Convertisseur d'Images en PDF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="PDFAid">
+            <span>PDFAid</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#converter">Convertir</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Convertissez vos images en PDF en un clic</h1>
+            <p>Solution rapide, sécurisée et gratuite</p>
+            <a href="#converter" class="cta-button">Commencer</a>
+        </section>
+
+        <section id="converter" class="converter-section">
+            <div class="upload-box">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h2>Déposez vos images ici</h2>
+                <p>Formats supportés: JPG, PNG, GIF, BMP (max. 100Mo)</p>
+                <input type="file" id="fileInput" accept="image/*" multiple>
+                <button id="convertBtn">Convertir en PDF</button>
+                <div id="fileInfo"></div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <!-- Contenu des fonctionnalités -->
+        </section>
+    </main>
+
+    <footer id="contact">
+        <!-- Pied de page -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
